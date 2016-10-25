@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
+<head>
+<!--Bootstrap MAX CDN-->
 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
 
 <!-- jQuery library -->
@@ -9,14 +10,24 @@
 <!-- Latest compiled JavaScript -->
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
 
+<!--My own CSS stylesheet-->
+<link rel="stylesheet" type="text/css" href="style/cm-stylesheet.css">
+
+<!--LinkedIn JS-->
+<script type="text/javascript" src="https://platform.linkedin.com/badges/js/profile.js" async defer></script>
+<!--Favicon-->
+<link href="images/favicon.ico" rel="icon" type="image/x-icon" />
+
+<title>Catherine Mackie</title>
+
 <meta charset="utf-8"> 
 <meta name="viewport" content="width=device-width, initial-scale=1">
 
 </head>
 
-<body>
+<body data-spy="scroll" data-target=".navbar" data-offset="50">
 
-<nav class="navbar navbar-inverse">
+<nav class="navbar navbar-inverse navbar-fixed-top">
   <div class="container-fluid">
     <div class="navbar-header">
       <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
@@ -28,14 +39,37 @@
     </div>
     <div class="collapse navbar-collapse" id="myNavbar">
       <ul class="nav navbar-nav">
-        <li class="active"><a href="#">Home</a></li>
-        <li><a href="#">About</a></li>
-        <li><a href="#">Projects</a></li> 
-        <li><a href="#">Contact</a></li> 
+		<li><a href="#intro">Introduction</a></li>
+		<li><a href="#proj">Projects</a></li>
+		<li><a href="#exp">Experience</a></li>
+		<li><a href="#about">About</a></li>
+		<li><a href="#contact">Contact</a></li> 
       </ul>
     </div>
   </div>
 </nav>
 
+<div id="intro" class="container-fluid">
+<h1>Introduction</h1>
+<p>I am a recent graduate of the Information Technology programme at the University of Glasgow, graduating with a MSc with merit in September 2016.</br></br>This is my personal website which contains information of my software development experience and information about myself.  This website is hosted on a Github repository, which can be seen <a href="https://github.com/cmackie21/cmackie21.github.io" target="_blank">here</a>.</p>
+</div>
+<div id="proj" class="container-fluid">
+<h1>Projects</h1>
+</div>
+<div id="exp" class="container-fluid">
+<h1>Experience</h1>
+</div>
+<div id="about" class="container-fluid">
+<h1>About Me</h1>
+</div>
+<div id="contact" class="container-fluid">
+<h1>Contact Me</h1>
+</br>
+<p>If you wish to contact me, please e-mail me by following this <a href="mailto:catherine.mackie@hotmail.co.uk?Subject=Enquiry" target="_top">link</a>.</br></br>
+Alternatively you can check out my LinkedIn profile below.</p>
+</br>
+<div class="LI-profile-badge"  data-version="v1" data-size="medium" data-locale="en_US" data-type="horizontal" data-theme="light" data-vanity="catherine-mackie-092754a1"><a class="LI-simple-link" href='https://uk.linkedin.com/in/catherine-mackie-092754a1?trk=profile-badge'>Catherine Mackie</a></div>
+
+</div>
 </body>
 </html>
