@@ -5,7 +5,7 @@
 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
 
 <!-- jQuery library -->
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
 
 <!-- Latest compiled JavaScript -->
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
@@ -17,6 +17,8 @@
 <script type="text/javascript" src="https://platform.linkedin.com/badges/js/profile.js" async defer></script>
 <!--Favicon-->
 <link href="images/favicon.ico" rel="icon" type="image/x-icon" />
+<!--Custom Javascript-->
+<script type="text/javascript" src="cm-jq.js"></script>
 
 <title>Catherine Mackie</title>
 
@@ -57,20 +59,50 @@
 <div id="proj" class="container-fluid">
 <h1>Projects</h1>
 </br>
-<p>To find out more about each project, push the button associated with each project</p>
+<p>To find out more about each project I have participated in, push the button associated with each project</p>
 </br>
 <h2>MSc Information Technology</h2>
 <div class="btn-group btn-group-lg">
-  <a href="#" class="btn btn-primary">Java Timetabling Assistant</a>
-  <a href="#" class="btn btn-primary">Economic Visualisation Android App</a>
-  <a href="#" class="btn btn-primary">BookWormsUnite!</a>
+  <button class="btn btn-primary" id="java-button">Java Timetabling Assistant</button>
+  <button class="btn btn-primary" id="android-button">Economic Visualisation Android App</button>
+  <button class="btn btn-primary"id="book-button">BookWormsUnite!</button>
+</div>
+</br>
+</br>
+<div class="row">
+  <div class="col-sm-4" >
+  <div class="panel panel-default"id="java-panel">
+  <div class="panel-body">This projects aim was to develop a program in Java which would act as a timetabling assistant for a university admin proefessional to help them organise the timetabling of classes for one college.</div>
+</div>
+  </div>
+  <div class="col-sm-4" >
+  <div class="panel panel-default"id="android-panel">
+  <div class="panel-body">Produced as part of the MSc IT Development project, this Android application's aim was to display graphs based on data found in the Extended Penn World Tables according to user selected options.  It also has the capability to save the produced graph to the device and process a new Extended Penn World Table file.  The application has been uploaded to the Google Play Store and can be found <a href="https://play.google.com/store/apps/details?id=com.cmackie.gbr.EPWTGraph" target="_blank">here.</a>  The target group for this application are economists, economics academics and other who may require long term economic statistics.</div>
+</div>
+</div>
+  <div class="col-sm-4" >
+  <div class="panel panel-default"id="book-panel">
+  <div class="panel-body">Built using the Django framework, this was a web app designed to host Internet Readathon events and allow users of the website to log their achievements.</div>
+</div></div>
 </div>
 </br>
 <h2>MA Economic and Social History & Politics</h2>
-<div class="btn-group btn-group-lg">
-  <a href="#" class="btn btn-primary">RESH Team Project</a>
-</div>
-</div>
+ <button  type="button"id="resh-button"class="btn btn-primary btn-lg">RESH Team Project</button>
+</br>
+</br>
+<div class="row">
+<div class="col-sm-4"></div>
+<div class="col-sm-4">
+  <div class="panel panel-default" id="esh-panel">
+  <div class="panel-body">Undertaken during my undergraduate degree, the topic of Greenock - a Scottish town just outside Glasgow - from 1950-2001 focussed on the structure of employment from the heavy industries of shipbuilding, through the arrival and departure of technology companies such as IBM to the present day services-based employment.  
+  This was undertaken by myself and 3 other members of the team, of which we had to produce a 5,000 word report and a 20 minute presentation on our findings.</div>
+  </div>
+  </div>
+  <div class="col-sm-4"></div>
+  </div>
+  </div>
+
+
 <div id="exp" class="container-fluid">
 <h1>Skills & Experience</h1>
 </div>

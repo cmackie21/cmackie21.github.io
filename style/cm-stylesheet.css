@@ -7,7 +7,8 @@
 #proj{
 	text-align: center;
 	padding-top:100px;
-	height:500px;
+	height:1000px;
+	padding-bottom:50px;
 }
 
 #exp{
@@ -25,4 +26,21 @@
 	text-align: center;
 	padding-top:100px;
 	height:500px;
+}
+
+#esh-panel{
+	align: center;
+	display:none;
+}
+
+#java-panel{
+	display:none;
+}
+
+#android-panel{
+	display:none;
+}
+
+#book-panel{
+	display:none;
 }
