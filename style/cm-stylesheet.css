@@ -19,7 +19,7 @@
 #contact{
 	text-align: center;
 	padding-top:100px;
-	height:500px;
+	height:600px;
 }
 
 #about{
@@ -44,3 +44,8 @@
 #book-panel{
 	display:none;
 }
+
+#msc-div{
+	height:350px;
+}
+
