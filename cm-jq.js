@@ -16,5 +16,6 @@ $(document).ready(function() {
 		$("#book-panel").fadeToggle();
 	});
 	
+	$('[data-toggle="tooltip"]').tooltip(); 
 
 });
